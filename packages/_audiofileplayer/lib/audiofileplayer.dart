@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:typed_data';
 import 'dart:ui' show AppLifecycleState;
 
-import 'package:audiofileplayer/audio_system.dart';
+import 'package:_audiofileplayer/audio_system.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 import 'package:logging/logging.dart';
