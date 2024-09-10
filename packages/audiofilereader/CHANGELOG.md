@@ -1,3 +1,6 @@
+## 2.1.3 - 10 Sep 2024
+  * Fix IOS build issue.
+
 ## 2.1.2 - 10 Sep 2024
   * Add namespace to build.gradle.
 
