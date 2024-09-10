@@ -36,6 +36,8 @@ android {
     lintOptions {
         disable 'InvalidPackage'
     }
+	
+    namespace 'com.google.flutter.plugins.audiofileplayer'
 }
 
 dependencies {
