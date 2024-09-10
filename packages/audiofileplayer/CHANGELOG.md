@@ -1,3 +1,6 @@
+## 2.1.2 - 10 Sep 2024
+  * Add namespace to build.gradle.
+
 ## 2.1.1 - 21 Oct 2022
   * Fix issue with starting MediaSessionCompat
 
