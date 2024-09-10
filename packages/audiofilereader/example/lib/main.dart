@@ -3,8 +3,8 @@ import 'dart:math';
 import 'dart:typed_data';
 import 'dart:ui' as ui;
 
-import 'package:_audiofileplayer/audiofileplayer.dart';
-import 'package:_audiofileplayer/audio_system.dart';
+import 'package:audiofilereader/audiofileplayer.dart';
+import 'package:audiofilereader/audio_system.dart';
 import 'package:logging/logging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
