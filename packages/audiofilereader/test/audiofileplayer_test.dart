@@ -3,7 +3,7 @@ import 'dart:ui' show AppLifecycleState;
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart' show WidgetsFlutterBinding;
 import 'package:flutter_test/flutter_test.dart';
-import 'package:_audiofileplayer/audiofileplayer.dart';
+import 'package:audiofilereader/audiofileplayer.dart';
 
 const double _defaultPositionSeconds = 5.0;
 const double _defaultDurationSeconds = 10.0;

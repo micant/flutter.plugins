@@ -228,13 +228,13 @@ public class AudiofileplayerService extends MediaBrowserServiceCompat
               .getApplicationInfo(context.getPackageName(), PackageManager.GET_META_DATA);
       Bundle bundle = ai.metaData;
 
-      if (bundle != null && bundle.containsKey("ic_audiofileplayer")) {
-        iconUri = bundle.getString("ic_audiofileplayer");
+      if (bundle != null && bundle.containsKey("ic_audiofilereader")) {
+        iconUri = bundle.getString("ic_audiofilereader");
       }
     } catch (Throwable t) {
       Log.d(
           TAG,
-          "There is no 'ic_audiofileplayer' in the metadata to load. Using the App Icon instead.");
+          "There is no 'ic_audiofilereader' in the metadata to load. Using the App Icon instead.");
     }
 
     return context.getResources().getIdentifier(iconUri, null, context.getPackageName());

@@ -15,11 +15,11 @@ Supports
 
 ## Getting Started
 
-To use this plugin, add `_audiofileplayer` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
+To use this plugin, add `audiofilereader` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
 ### Examples
 
-Please see the top of `_audiofileplayer.dart` for more information, and see the example app showing the following use cases
+Please see the top of `audiofilereader.dart` for more information, and see the example app showing the following use cases
 in action.
 
 #### One-shot playback
@@ -158,9 +158,9 @@ If your app loads remote audio files, you will need this permission in your `And
 
 ### Android small icon
 If you see a white box in place of the small notification icon it's probably because your app icon doesn't have a transparent background.
-You can specify which icon the `audiofileplayer` plugin should use by including the following metadata in your `AndroidManifest.xml`.
+You can specify which icon the `audiofilereader` plugin should use by including the following metadata in your `AndroidManifest.xml`.
 ```xml
-<meta-data android:name="ic_audiofileplayer" android:value="drawable/notification_icon" />
+<meta-data android:name="ic_audiofilereader" android:value="drawable/notification_icon" />
 ```
 
 Don't forget to include the icons to your `res/drawable-{density}` directories. Example:
