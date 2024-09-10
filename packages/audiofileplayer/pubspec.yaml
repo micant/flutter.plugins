@@ -1,4 +1,4 @@
-name: audio_file_player
+name: audiofileplayer
 description: A Flutter plugin for audio playback. Updated for use with Android Gradle Plugin ^7.5. Full credit to the package authors at Google - https://github.com/google/flutter.plugins/tree/master/packages/audiofileplayer
 version: 2.1.2
 homepage: https://github.com/micant/flutter.plugins/blob/master/packages/audiofileplayer
